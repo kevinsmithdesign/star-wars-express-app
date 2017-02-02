@@ -2,9 +2,15 @@
   "name": "star-wars-express-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server1.js",
+  "main": "server6.js",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server6.js"
   },
   "repository": {
     "type": "git",
